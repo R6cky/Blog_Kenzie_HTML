@@ -1,0 +1,213 @@
+/**********Configurações da área de cabeçao**********/
+
+
+#area-cabecalho{
+    border: solid green;
+    width: 1020px;
+    height: 382px;
+}
+
+#banner{
+    border: solid rgb(128, 0, 0);
+    width: 1020px;
+    height: 250px;
+    background: url(../img/banner.png);
+}
+
+.titulo{
+    border: solid green;
+    width: 1020px;
+    height: 50px;
+    background-color: rgb(21, 21, 77);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+#navegacao{
+    border: solid rgb(20, 188, 255);
+    width: 1020px;
+    height: 70px;
+    background: url(/src/img/fundo-nav.jpeg);
+}
+
+
+/*Configuração da lista não ordenada*/
+
+
+ul{
+    margin-left: 50px;
+
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/*Formatação de links*/
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(21, 21, 77);
+}
+
+/**************************************************************************/
+/**********Configurações da área dos posts, a baixo do cabeçalho**********/
+
+body{
+    background: rgb(199, 154, 95) url(/src/img/fundo-body.jpg);
+}
+
+main{
+    border: solid rgb(107, 0, 128);
+    width: 1020px;
+    height: 900px;
+    background-color:rgb(21, 21, 77);
+
+}
+
+
+article{
+    border: solid rgb(126, 128, 0);
+    width: 1020px;
+    height: 900px;
+}
+
+
+.posts-hold{
+    border: solid rgb(128, 0, 0);
+    width: 1020px;
+    height: 600px;
+
+}
+
+
+.posts-superior{
+    border: solid rgb(128, 0, 0);
+    width: 900px;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.post1{
+    border: solid rgb(128, 0, 0);
+    width: 400px;
+    height: 200px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
+    background-color: rgb(204, 198, 198);
+}
+
+.post2{
+    border: solid rgb(128, 0, 0);
+    width: 400px;
+    height: 200px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+    background-color: rgb(204, 198, 198);
+}
+
+
+
+
+
+
+.posts-inferior{
+    border: solid rgb(128, 0, 0);
+    width: 900px;
+    height: 250px;
+    margin: 20px auto;
+    }
+
+
+.post3{
+    border: solid rgb(128, 0, 0);
+    width: 400px;
+    height: 200px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: left;
+    background-color: rgb(204, 198, 198);
+
+}
+
+.post4{
+    border: solid rgb(128, 0, 0);
+    width: 400px;
+    height: 200px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+    background-color: rgb(204, 198, 198);
+
+}
+
+
+
+
+
+    #newsletter{
+        width: 1020px;
+        height: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        font-style:initial;
+        color: rgb(255, 255, 255);
+        text-align: center;
+
+    }    
+
+
+    /*Configuração do formulário da newsletter*/
+
+    .formulario{
+        width: 500px;
+        height: 150px;
+        margin: auto;
+    }
+
+
+    .formulario input{
+        font-size: 25px;
+        text-align: center;
+        width: 400px;
+        height: 50px;
+
+    }
+
+    .botao{
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    /*Configuração do rodapé*/
+
+    #rodape{
+        border: solid rgb(128, 0, 0);
+        width: 1020px;
+        height: 160px;
+        background-color:rgb(197, 197, 211);
+
+    }
+
